@@ -1,0 +1,25 @@
+{
+  "name": "dsh-session-extract",
+  "version": "0.1.0",
+  "description": "Read every zstd frame from DeepSeek Harness .jsonl.zstd session logs",
+  "license": "MIT",
+  "bin": {
+    "dsh-session-extract": "bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.15.0"
+  },
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "zstd",
+    "session",
+    "log"
+  ]
+}
